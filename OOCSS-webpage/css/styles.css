@@ -1,0 +1,191 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	font-family: Raleway, sans-serif;
+	line-height: 30px;
+	width: 100%
+}
+
+a {
+	color: #444;
+	text-decoration: none;
+}
+
+.container {
+	margin: 25px 0;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.title {
+	color: #f2af00;
+	padding: 10px 0;
+}
+
+.sub-tittles {
+	margin: 30px 0;
+	padding: 20px;
+}
+
+.sub-tittles-skin {
+	border-left: 2px solid #f2af00;
+}
+
+.text {
+	margin: 20px 50px 20px 0;
+}
+
+.img {
+	margin: 5% 25%;
+}
+
+
+.hover-links:hover {
+	color: #f2af00;
+}
+
+
+/* HELPERS */
+
+.clearfix {
+	clear: both;
+}
+
+/* GRIDS */
+
+.min-width {
+	min-width: 1180px;
+}
+
+.line {
+	margin: 0 auto;
+	width: 85%;
+}
+
+.unit {
+	width: 50%;
+}
+
+.size1of2 {
+	float: left;
+}
+
+.size2of2 {
+	float: right;
+}
+
+.size1of4 {
+	float: left;
+	margin: 5px;
+	width: 24%;
+}
+
+/* NAVIGATION */
+
+.logo {
+	background: #dc5034;
+	color: #fff;
+	float: left;
+	font-size: 30px;
+	padding: 30px 20px;
+}
+
+
+.nav {
+	border: none;
+	float: right;
+	padding-top: 30px;
+}
+
+.menu-li {
+	display: inline-block;	
+	list-style: none;
+}
+
+.menu-links {
+	border-right: 1px solid #f2af00;
+	font-size: 14px;
+	padding: 10px 35px;
+}
+
+/*HOME SECTION */
+
+.home {
+	background: url(../images/nicole.jpg)no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	height: 400px;
+	padding-top: 150px;
+}
+
+.btn {
+	padding: 20px;
+}
+
+.btn-skin {
+	background: rgba(255, 255, 255, 0.6);
+	border: 2px solid #444;
+}
+
+.btn-skin:hover {
+	background: #dc5034;
+	border-color: transparent;
+	color: #fff;
+}
+
+
+/* PRINCIPLES-------Freebie-------*/
+
+/* MEDIA OBJECT */
+
+.media-img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.img-responsive {
+	display: block;
+	height: auto;
+	margin: 5px;
+	max-width: 100%;
+}
+
+.size-img{
+	height: 250px;
+	width: 300px;
+}
+
+/* BENEFICIOS*/
+
+.icon-img {
+	border: 1px solid #666;
+	height: 150px;
+	padding: 15px;
+	width: 150px;
+}
+
+.text-info {
+	width: 80%;
+}
+
+/*--Footer--*/
+
+.footer {
+	background: #dc5034;
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+.footer-li {
+	display: block;
+}
+
+
+
+/* RECOMENDACIONES-------Freebie-------*/
